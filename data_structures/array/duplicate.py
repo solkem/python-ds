@@ -12,8 +12,8 @@ def duplicate(arr):
     hare = arr[0]
 
     while True:
-        tortoise = arr[tortoise]
-        hare = arr[arr[hare]]
+        tortoise = arr[tortoise] #Move tortoise at linear speed
+        hare = arr[arr[hare]] #Move hare by double speed
         if tortoise == hare:
             break
 

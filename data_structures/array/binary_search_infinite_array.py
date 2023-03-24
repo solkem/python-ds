@@ -1,10 +1,10 @@
 def binary_search(arr, start, end, val):
     while start <= end:
-        mid = (start + end)//2
+        mid = (start + end)//2  #int division as opposed to /-floating point division
         if val == arr[mid]:
             return mid
         elif val > arr[mid]:
-            start = mid + 1
+            start = mid + 1 #Adjust start to left or right
         else:
             end = mid - 1
 
@@ -38,4 +38,4 @@ def search(arr, val):
 
 arr = [1,3,5,6,7,8,9,11,13,15,19]
 
-print(search(arr, 7))
+print(search(arr, 13))
