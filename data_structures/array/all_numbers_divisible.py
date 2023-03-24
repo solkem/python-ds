@@ -7,7 +7,7 @@
 import sys
 
 def check(arr):
-    min = sys.maxsize
+    min = sys.maxsize #max int size
     for i in arr:
         if i < min:
             min = i
