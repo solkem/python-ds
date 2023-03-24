@@ -8,10 +8,10 @@ import sys
 
 def check(arr):
     min = sys.maxsize #max int size
-    for i in arr:
+    for i in arr: #determine min
         if i < min:
             min = i
-    for i in arr:
+    for i in arr: #compare min with all numbers
         if not i % min == 0:
             return False
     return True

@@ -12,6 +12,7 @@ def binary_search(arr, start, end, val):
 
 
 def search(arr, val):
+    #Special Case: if array has 1 element
     if len(arr) == 1:
         if arr[0] == val:
             return "Found"
