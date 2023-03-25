@@ -6,4 +6,5 @@ def find_peak(arr):
             if arr[i-1] < arr[i] and arr[i+1]<arr[i]:
                 return arr[i]
 arr=[5,10,20,25,30,24,78]
+print(arr[::-1])
 print(find_peak(arr))
