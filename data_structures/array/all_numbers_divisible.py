@@ -1,8 +1,8 @@
-# Q - Find a number in the array such that all the elements
-# in the array are divisible by it
+# Q - Find a number in the array such that all the elements in the array are divisible by it
 
-# A - just find the min in the array and check if all the other elements
-# are divisble by it
+# 1. just find the min in the array and
+# 2. check if all the other elements are divisble by it
+
 
 import sys
 
